@@ -6,7 +6,7 @@ $(document).ready(function(){
 // This is for my typeout effect
 $(function(){
     $(".typeout").typed({
-        strings: ["i am harry"],
+        strings: ["harry duncan"],
         typeSpeed: 60
     });
 });

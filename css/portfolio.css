@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,300,600,700); /*font-family: 'Raleway', sans-serif;*/
 @import url(https://fonts.googleapis.com/css?family=Raleway+Dots); /*font-family: 'Raleway Dots', cursive;*/
 
-
 .centered {
   text-align: center;
   margin: 0 auto;
@@ -112,12 +111,12 @@ nav {
 }
 
 .box-2 {
-  color: white;
+  color: #fff;
   right: 12%;
   z-index: 2;
   top: 12%;
   background-color: #f0f0f0;
-  box-shadow: -20px -20px 20px rgba(0,0,0,0.08);
+  box-shadow: -20px -20px 20px rgba(0,0,0,0.07);
 }
 
 /*// Works //*/
@@ -161,3 +160,33 @@ nav {
     margin: 50px auto;
   }
 }
+
+.works {
+  padding-top: 20vh;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 50px;
+  background-color: #333333;
+}
+
+span {
+  color: #7A62EF;
+}
+
+figcaption p {
+  color: #7A62EF;
+}
+
+figcaption h2 {
+  color: #7A62EF;
+}
+
+h4 {
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
