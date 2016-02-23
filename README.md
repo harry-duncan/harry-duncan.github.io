@@ -13,3 +13,6 @@
 ## Hard bits
 1. nav nearly **killed** me
 2. responsive layout
+
+### Future
+Will probably want to rebuild the entire site in a few weeks. So I'll keep you updated!
