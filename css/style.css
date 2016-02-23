@@ -33,7 +33,7 @@ font-family: 'Montserrat', Helvetica, sans-serif !important;
 nav {
   position: fixed;
   top: 10px;
-  left: 27%;
+  left: 38%;
   text-align: center;
   z-index: 99999999;
 }
@@ -59,6 +59,7 @@ nav {
   background: #161616;
   width: 100vw;
   height: 650px;
+  text-align: center;
 
 }
 
@@ -66,6 +67,7 @@ nav {
   /*border: 1px solid green;*/
   width: 100vw;
   height: 450px;
+  text-align: center;
 }
 
 .contact {
@@ -73,6 +75,7 @@ nav {
   position: relative;
   width: 100vw;
   height: 100vh;
+  text-align: center;
 }
 
 .greeting {
@@ -140,13 +143,15 @@ nav {
 }
 
 .works-h2 {
-  color: #444;
-  position: absolute;
-  top: 100px;
-  left: 43.5%;
   text-transform: uppercase;
+  position: relative;
+  top: 100px;
+  transform: translateY(-50%);
+  padding: 0;
+  margin: 0;
   letter-spacing: 2px;
   font-weight: 500;
+  color: #444;
 }
 
 .portfolio .projects .project {
@@ -159,11 +164,9 @@ nav {
   display: inline-block;
   text-align: center;
   margin-top: 225px;
+  width: calc(30% - 5%);
 }
 
-.projects {
-  margin-left: 100px;
-}
 
 .title {
   text-transform: uppercase;
@@ -188,9 +191,9 @@ nav {
     border: 0;
     height: 2px;
     width: 50px;
-    position: absolute;
+    position: relative;
+    transform: translateY(-50%);
     top: 130px;
-    left: 47%;
     background: #b39964;
 }
 
@@ -198,17 +201,17 @@ nav {
     border: 0;
     height: 2px;
     width: 50px;
-    position: absolute;
-    top: 160px;
-    left: 47%;
+    position: relative;
+    transform: translateY(-50%);
+    top: 140px;
     background: #b39964;
 }
 
 .skills-h2 {
   text-transform: uppercase;
-  position: absolute;
+  position: relative;
   top: 100px;
-  left: 43%;
+  transform: translateY(-50%);
   padding: 0;
   margin: 0;
   letter-spacing: 2px;
@@ -216,13 +219,15 @@ nav {
   color: #444;
 }
 
+
+
 .skills hr {
     border: 0;
     height: 2px;
     width: 50px;
-    position: absolute;
-    top: 140px;
-    left: 47%;
+    position: relative;
+    transform: translateY(-50%);
+    top: 130px;
     background: #b39964;
 }
 
@@ -230,7 +235,9 @@ nav {
 .skillset {
   position: absolute;
   top: 220px;
-  left: 24%;
+  width: calc(45% - 5%);
+  text-align: center;
+  left: 30%;
 }
 
 .skill {
@@ -244,45 +251,47 @@ nav {
   letter-spacing: 1px;
   text-transform: uppercase;
   line-height: 1.5em;
-  max-width: 600px;
+  width: calc(35% - 5%);
   position: absolute;
   text-align: center;
   top: 325px;
-  left: 28%;
+  left: 35%;
 }
 
 
-.contact h2 {
+.contact-h2 {
   text-transform: uppercase;
-  position: absolute;
-  color: #444;
-  top: 150px;
-  left: 45%;
+  position: relative;
+  transform: translateY(-50%);
+  top: 100px;
+  padding: 0;
+  margin: 0;
   letter-spacing: 2px;
   font-weight: 500;
+  color: #444;
 }
 
 .contact hr {
     border: 0;
     height: 2px;
     width: 50px;
-    position: absolute;
-    top: 200px;
-    left: 47%;
+    position: relative;
+    transform: translateY(-50%);
+    top: 130px;
     background: #b39964;
 }
 
-.contact p{
+#contact p{
   font-size: 1em;
   color: #666;
   letter-spacing: 1px;
   text-transform: uppercase;
   line-height: 1.5em;
   max-width: 600px;
-  position: absolute;
+  position: relative;
+  transform: translateY(-50%);
   text-align: center;
   top: 250px;
-  left: 30%;
 }
 
 /*// social // */
@@ -290,11 +299,12 @@ nav {
 .elements ul {
   width: 610px;
   margin: 0 auto;
-  position: absolute;
+  position: relative;
   top: 350px;
-  left: 32%;
+  transform: translateY(-50%);
   vertical-align: center;
   padding: 0px;
+  width: calc(35% - 5%);
 }
 .elements ul:after {
   content: "";
@@ -303,7 +313,7 @@ nav {
 }
 .elements ul li {
   list-style: none;
-  float: left;
+  display: inline-block;
   margin: 0px 15px 70px 0px;
   backface-visibility: hidden;
 }
