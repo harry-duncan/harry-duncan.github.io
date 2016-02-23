@@ -7,7 +7,7 @@
 
 ## Improvements
 1. private url
-2.clean up css
+2. clean up css
 3. add parallax
 
 ## Hard bits
