@@ -369,6 +369,36 @@ footer h4 {
 
 /*responsive section*/
 
+/*macbook air 13"*/
+@media screen and (max-width: 1440px) {
+  nav {
+    left: 27.5%;
+  }
+  .me {
+    left: 10%;
+  }
+  .about p {
+    left: 38%;
+  }
+  .skillset {
+    width: calc(60% - 5%);
+    text-align: center;
+    left: 22%
+  }
+  .skills p {
+    width: calc(60% - 5%);
+    left: 22%;
+  }
+  .elements ul {
+    width: calc(60% - 5%);
+  }
+  #contact p {
+    left: 29%;
+  }
+}
+
+
+/*small desktop*/
 @media screen and (max-width: 1280px) {
   nav {
     left: 25%;
@@ -395,7 +425,7 @@ footer h4 {
     left: 26%;
   }
 }
-
+/*ipad*/
 @media screen and (max-width: 1024px) {
   nav {
     left: 19%;
@@ -443,6 +473,71 @@ footer h4 {
   }
 }
 
+/*ipad vertical*/
+@media screen and (max-width: 768px) {
+  nav {
+    left: 0%;
+  }
+  .me {
+    left: 3%;
+  }
+  .about p {
+    left: 40%;
+    max-width: 400px;
+  }
+    .para1 {
+    top: 210px;
+    left: 450px;
+  }
+
+  .para2 {
+    top: 325px;
+    left: 450px;
+  }
+
+  .para3 {
+    top: 450px;
+    left: 450px;
+  }
+
+  .portfolio {
+    height: 1000px;
+  }
+  .portfolio .projects .project {
+    width: 100%;
+    height: 250px;
+    margin-top: 2px;
+    position: relative;
+    top: 200px;
+  }
+
+  .skillset {
+    width: calc(60% - 5%);
+    text-align: center;
+    left: 22%;
+    top: 200px;
+  }
+  .skills p {
+    width: calc(60% - 5%);
+    left: 22%;
+    top: 345px;
+  }
+  .skill {
+    margin-bottom: 10px;
+  }
+  .elements ul {
+    width: calc(70% - 5%);
+  }
+  .contact {
+    height: 650px;
+  }
+
+  #contact p {
+    left: 10%;
+  }
+}
+
+/*most iphones*/
 @media screen and (max-width: 640px) {
   nav {
     left: 0%;
@@ -503,3 +598,274 @@ footer h4 {
     padding-bottom: 20px;
   }
 }
+/*low end windows phone*/
+@media screen and (max-width: 480px) {
+  nav {
+    left: 0%;
+  }
+  .about {
+    height: 950px;
+  }
+  .me {
+    left: 24%;
+  }
+  .about p {
+    left: 15%;
+    max-width: 350px;
+  }
+  .para1 {
+    top: 525px;
+  }
+
+  .para2 {
+    top: 650px;
+  }
+
+  .para3 {
+    top: 795px;
+  }
+
+  .portfolio {
+    height: 1000px;
+  }
+  .portfolio .projects .project {
+    width: 100%;
+    height: 250px;
+    margin-top: 2px;
+    position: relative;
+    top: 200px;
+  }
+  .skills {
+    height: 600px;
+  }
+  .skillset {
+    width: calc(63% - 5%);
+    text-align: center;
+    left: 20%;
+    top: 200px;
+  }
+  .skills p {
+    width: calc(70% - 5%);
+    left: 17%;
+    top: 425px;
+  }
+  .skill {
+    margin-bottom: 10px;
+  }
+  .elements ul {
+    width: calc(60% - 5%);
+  }
+  #contact p {
+    left: 17%;
+    top: 200px;
+    width: calc(70% - 5%);
+    padding-bottom: 20px;
+  }
+}
+
+/*iphone6plus*/
+@media screen and (max-width: 414px) {
+  nav {
+    left: 0%;
+  }
+  .about {
+    height: 1100px;
+  }
+  .me {
+    left: 20%;
+  }
+  .about p {
+    left: 20%;
+    max-width: 250px;
+  }
+  .para1 {
+    top: 525px;
+  }
+
+  .para2 {
+    top: 680px;
+  }
+
+  .para3 {
+    top: 890px;
+  }
+
+  .portfolio {
+    height: 1000px;
+  }
+  .portfolio .projects .project {
+    width: 100%;
+    height: 250px;
+    margin-top: 2px;
+    position: relative;
+    top: 200px;
+  }
+  .skills {
+    height: 700px;
+  }
+  .skillset {
+    width: calc(63% - 5%);
+    text-align: center;
+    left: 20%;
+    top: 200px;
+  }
+  .skills p {
+    width: calc(70% - 5%);
+    left: 17%;
+    top: 485px;
+  }
+  .skill {
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+  .elements ul {
+    width: calc(60% - 5%);
+  }
+  .contact {
+    height: 736px;
+  }
+  #contact p {
+    left: 17%;
+    top: 200px;
+    width: calc(70% - 5%);
+    padding-bottom: 20px;
+  }
+}
+
+/*iphone6*/
+@media screen and (max-width: 375px) {
+  nav {
+    left: 0%;
+  }
+  .about {
+    height: 1100px;
+  }
+  .me {
+    left: 17%;
+  }
+  .about p {
+    left: 17%;
+    max-width: 250px;
+  }
+  .para1 {
+    top: 525px;
+  }
+
+  .para2 {
+    top: 680px;
+  }
+
+  .para3 {
+    top: 890px;
+  }
+
+  .portfolio {
+    height: 1000px;
+  }
+  .portfolio .projects .project {
+    width: 100%;
+    height: 250px;
+    margin-top: 2px;
+    position: relative;
+    top: 200px;
+  }
+  .skills {
+    height: 700px;
+  }
+  .skillset {
+    width: calc(63% - 5%);
+    text-align: center;
+    left: 20%;
+    top: 200px;
+  }
+  .skills p {
+    width: calc(70% - 5%);
+    left: 17%;
+    top: 485px;
+  }
+  .skill {
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+  .elements ul {
+    width: calc(60% - 5%);
+  }
+  .contact {
+    height: 650px;
+  }
+  #contact p {
+    left: 17%;
+    top: 200px;
+    width: calc(70% - 5%);
+    padding-bottom: 20px;
+  }
+}
+/*iphone5*/
+@media screen and (max-width: 320px) {
+  nav {
+    left: 0%;
+  }
+  .about {
+    height: 1100px;
+  }
+  .me {
+    left: 12%;
+  }
+  .about p {
+    left: 12%;
+    max-width: 250px;
+  }
+  .para1 {
+    top: 525px;
+  }
+
+  .para2 {
+    top: 680px;
+  }
+
+  .para3 {
+    top: 890px;
+  }
+
+  .portfolio {
+    height: 1000px;
+  }
+  .portfolio .projects .project {
+    width: 100%;
+    height: 250px;
+    margin-top: 2px;
+    position: relative;
+    top: 200px;
+  }
+  .skills {
+    height: 800px;
+  }
+  .skillset {
+    width: calc(63% - 5%);
+    text-align: center;
+    left: 20%;
+    top: 200px;
+  }
+  .skills p {
+    width: calc(70% - 5%);
+    left: 17%;
+    top: 585px;
+  }
+  .skill {
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+  .elements ul {
+    width: calc(60% - 5%);
+  }
+  .contact {
+    height: 600px;
+  }
+  #contact p {
+    left: 17%;
+    top: 200px;
+    width: calc(70% - 5%);
+    padding-bottom: 20px;
+  }
+}
+
