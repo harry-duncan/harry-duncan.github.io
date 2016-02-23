@@ -19,11 +19,6 @@ font-family: 'Montserrat', Helvetica, sans-serif !important;
 
 .container {
   margin: 0 auto;
-/*  background: url(../img/home-bg.jpg)no-repeat center center fixed;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
 }
 
 .home, .about, .portfolio, .skills, .contact {
@@ -33,7 +28,7 @@ font-family: 'Montserrat', Helvetica, sans-serif !important;
 nav {
   position: fixed;
   top: 10px;
-  left: 38%;
+  left: 31%;
   text-align: center;
   z-index: 99999999;
 }
@@ -89,6 +84,8 @@ nav {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 500;
+  /*border: 1.5px solid white;*/
+  /*padding: 10px 30px 10px 30px;*/
 }
 
 .greeting h2 {
@@ -105,6 +102,7 @@ nav {
   margin: 0;
   letter-spacing: 2px;
   font-weight: 500;
+  /*font-size: 16px;*/
   color: #444;
 }
 
@@ -114,32 +112,33 @@ nav {
   letter-spacing: 1px;
   text-transform: uppercase;
   line-height: 1.5em;
-  max-width: 600px;
+  max-width: 650px;
   position: absolute;
   text-align: left;
+  left: 41%;
 }
 
 .para1 {
-  top: 200px;
+  top: 210px;
   left: 450px;
   margin-top: 0;
 }
 
 .para2 {
-  top: 277px;
+  top: 287px;
   left: 450px;
 }
 
 .para3 {
-  top: 383px;
+  top: 393px;
   left: 450px;
 }
 
 .me {
   position: absolute;
   width: 250px;
-  left: 110px;
-  top: 200px;
+  left: 23%;
+  top: 210px;
 }
 
 .works-h2 {
@@ -235,9 +234,9 @@ nav {
 .skillset {
   position: absolute;
   top: 220px;
-  width: calc(45% - 5%);
+  width: calc(50% - 5%);
   text-align: center;
-  left: 30%;
+  left: 27%
 }
 
 .skill {
@@ -289,9 +288,9 @@ nav {
   line-height: 1.5em;
   max-width: 600px;
   position: relative;
-  transform: translateY(-50%);
-  text-align: center;
   top: 250px;
+  left: 31.5%;
+
 }
 
 /*// social // */
@@ -323,22 +322,6 @@ nav {
   border: 1.5px solid #fff;
   border-radius: 0;
 }
-.elements ul .fa-twitter {
-  padding: 0px 2px 3px 2px;
-}
-.elements ul .fa-facebook {
-  padding: 0px 4px 3px 3px;
-}
-.elements ul .fa-dribbble {
-  padding: 0px 2px 3px 2px;
-}
-.elements ul .fa-linkedin {
-  padding: 0px 2px 3px 2px;
-}
-.elements ul .fa-flickr {
-  padding: 0px 2px 3px 2px;
-}
-
 .elements a:hover {
   color: #b39964 !important;
   border-color: #b39964 !important;
@@ -350,15 +333,155 @@ nav {
 }
 
 .elements a:hover i {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
   color: #FFF;
   -webkit-transition: .3s ease;
   -moz-transition: .3s ease;
   -ms-transition: .3s ease;
   -o-transition: .3s ease;
   transition: .3s ease;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100vw;
+  background: #000;
+}
+
+footer h4 {
+  font-size: 1em;
+  color: #666;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 1.5em;
+}
+
+
+/*responsive section*/
+
+@media screen and (max-width: 1280px) {
+  nav {
+    left: 25%;
+  }
+  .me {
+    left: 10%;
+  }
+  .about p {
+    left: 38%;
+  }
+  .skillset {
+    width: calc(60% - 5%);
+    text-align: center;
+    left: 22%
+  }
+  .skills p {
+    width: calc(60% - 5%);
+    left: 22%;
+  }
+  .elements ul {
+    width: calc(60% - 5%);
+  }
+  #contact p {
+    left: 26%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    left: 19%;
+  }
+  .me {
+    left: 10%;
+  }
+  .about p {
+    left: 40%;
+    max-width: 500px;
+  }
+    .para1 {
+    top: 210px;
+    left: 450px;
+  }
+
+  .para2 {
+    top: 300px;
+    left: 450px;
+  }
+
+  .para3 {
+    top: 430px;
+    left: 450px;
+  }
+  .skillset {
+    width: calc(60% - 5%);
+    text-align: center;
+    left: 22%;
+    top: 200px;
+  }
+  .skills p {
+    width: calc(60% - 5%);
+    left: 22%;
+    top: 345px;
+  }
+  .skill {
+    margin-bottom: 10px;
+  }
+  .elements ul {
+    width: calc(60% - 5%);
+  }
+  #contact p {
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  nav {
+    left: 0%;
+  }
+  .me {
+    left: 10%;
+  }
+  .about p {
+    left: 40%;
+    max-width: 500px;
+  }
+    .para1 {
+    top: 210px;
+    left: 450px;
+  }
+
+  .para2 {
+    top: 300px;
+    left: 450px;
+  }
+
+  .para3 {
+    top: 430px;
+    left: 450px;
+  }
+  .skillset {
+    width: calc(60% - 5%);
+    text-align: center;
+    left: 22%;
+    top: 200px;
+  }
+  .skills p {
+    width: calc(60% - 5%);
+    left: 22%;
+    top: 345px;
+  }
+  .skill {
+    margin-bottom: 10px;
+  }
+  .elements ul {
+    width: calc(60% - 5%);
+  }
+  #contact p {
+    left: 20%;
+  }
 }
