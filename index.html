@@ -1,72 +1,148 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Harry Duncan</title>
-
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/demo.css"/>
+  <link rel="stylesheet" type="text/css" href="css/component.css"/>
+  <link rel="stylesheet" href="css/button.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <script src="lib/jquery.js"></script>
   <script src="js/app.js"></script>
-  <script src="lib/typed.js"></script>
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/portfolio.css">
-  <link rel="stylesheet" href="css/component.css">
-  <link rel="stylesheet" href="css/particles.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
+  <script src="js/classie.js"></script>
 </head>
 <body>
-  <div class="container">
-    <nav class="cl-effect-18 nav" id="nav">
-      <a data-hover="" href="#about" class="nav-about">About</a>
-      <a data-hover="" href="#works" class="nav-works">Works</a>
-    </nav>
-    <div id="particles-js"></div>
-    <div class="landing" id="landing">
-      <div class="center">
-      <!-- <span class="static-text">I AM HARRY</span> -->
-        <span class="typeout"></span>
-      </div>
-    </div>
-    <!-- <div class="about" id="about"> -->
-      <!-- <div class="box-1"> -->
-        <!-- <h4>ABOUT</h4> -->
-        <!-- <p>This will be the section telling you about me and parallax</p> -->
-      <!-- </div> -->
-      <!-- <hr class="hr"> -->
-      <!-- <div class="box-2"> -->
-        <!-- <h4>CONTACT</h4> -->
-            <!-- <p>This will be the section telling you how to contact me and parallax</p> -->
-<!--         <a href="https://twitter.com/harry_lift"><div class="fa fa-twitter fa-lg"></div></a>
-        <a href="http://www.linkedin.com/in/harryduncan25"><div class="fa fa-linkedin-square fa-lg"></div></a>
-        <a href="https://github.com/harry-duncan"><div class="fa fa-github fa-lg"></div></a> -->
-      </div>
+<div class="container main-container">
+  <nav class="menu menu--valentine">
+    <ul class="menu__list">
+      <li class="menu__item menu__item--current"><a href="#home" class="menu__link">Home</a></li>
+      <li class="menu__item"><a href="#about" class="menu__link">About</a></li>
+      <li class="menu__item"><a href="#portfolio" class="menu__link">Portfolio</a></li>
+      <li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
+      <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
+    </ul>
+  </nav>
 
+<div id="home" class="home">
+  <div class="greeting">
+    <h1>Harry Duncan</h1>
+    <h2>Developer & Designer</h2>
+  </div>
+</div>
+<div id="about" class="about">
+  <h2 class="hi">HI... I'm harry!</h2>
+  <hr class="hr">
+  <p class="para1">This is the part where I'm supposed to tell you about myself... <br>I’m an enthusiastic and passionate web developer/designer based in sydney, australia. <br>To be honest, I like Music, Design, Code and Hitting the gym. <br>I often spend more time than i have learning and getting lost in the internet.</p>
+  <p class="para2">I recently graduated from general assembly's web developer immersive course and am passionate about all things development and tech. I now hold a broad set of skills across web development, design and business. <br>I have a passion for lateral thinking, creativity and solving complex problems. <br>I'm constantly looking to further my skills and work with passionate creatives.</p>
+  <p class="para3">When I'm not learning or coding you can find me in the gym, listening to music, working on my own business ideas & concepts or jumping out of planes. <br> I like to push life to the max mentally and physically and that drives me to be the best i can be in or out of the office!</p>
+  <img src="img/me.jpg" alt="" class="me">
+</div>
+<div id="portfolio" class="portfolio">
+  <h2 class="works-h2">recent works</h2>
+  <hr>
+  <div class="projects">
+    <div class="project project1">
+      <h2 class="title">Sound Storm</h2>
+      <p>a concept model of soundcloud</p>
+      <div class="main-container">
+        <button onclick="window.open('https://still-waters-5802.herokuapp.com/','_blank');" class="btn btn-gold btn-border-o">demo</button>
+        <button onclick="window.open('https://github.com/harry-duncan/Sound_Storm','_blank');" class="btn btn-gold btn-border-o">code</button>
+      </div>
     </div>
-    <!-- <div class="works"> -->
-      <!-- <div class="grid" id="works"| > -->
-          <!-- <figure class="effect-romeo"> -->
-            <!-- <img src="img/18.jpg" alt="img17"/> -->
-            <!-- <figcaption> -->
-              <!-- <h2>Sound <span>Storm</span></h2> -->
-              <!-- <p>This is a project I built during my time at General Aseembly | WDI-12.</p> -->
-              <!-- <a href="https://still-waters-5802.herokuapp.com/" target="_blank">View more</a> -->
-            <!-- </figcaption> -->
-          <!-- </figure> -->
-          <!-- <figure class="effect-romeo"> -->
-            <!-- <img src="img/18.jpg" alt="img18"/> -->
-            <!-- <figcaption> -->
-              <!-- <h2>Social <span>View</span></h2> -->
-              <!-- <p>This is a project I built during my time at General Aseembly | WDI-12.</p> -->
-              <!-- <a href="https://stormy-caverns-43121.herokuapp.com/" target="_blank">View more</a> -->
-            <!-- </figcaption> -->
-          <!-- </figure> -->
-        <!-- </div> -->
-      <!-- <footer></footer> -->
+    <div class="project project2">
+      <h2 class="title">Social View</h2>
+      <p>a social map for twitter & instagram</p>
+      <div class="main-container">
+        <button onclick="window.open('https://stormy-caverns-43121.herokuapp.com/','_blank');" class="btn btn-gold btn-border-o">demo</button>
+        <button onclick="window.open('https://github.com/Noviny/socialview','_blank');" class="btn btn-gold btn-border-o">code</button>
+      </div>
+    </div>
+    <div class="project project3">
+      <h2 class="title">Sound Planner</h2>
+      <p>a music event/ gig planner </p>
+      <div class="main-container">
+        <button onclick="window.open('http://sound-planner.herokuapp.com/','_blank');" class="btn btn-gold btn-border-o">demo</button>
+        <button onclick="window.open('https://github.com/harry-duncan/sound_planner','_blank');" class="btn btn-gold btn-border-o">code</button>
+      </div>
     </div>
   </div>
-  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
-  <script src="lib/particles.js"></script>
+</div>
+<div id="skills" class="skills">
+  <h2 class="skills-h2">current skills</h2>
+  <hr>
+  <div class="skillset">
+    <img src="img/js_badge.svg" alt="" class="skill">
+    <img src="img/jquery_logo.svg" alt="" class="skill">
+    <img src="img/backbone.svg" alt="" class="skill">
+    <img src="img/html5.svg" alt="" class="skill">
+    <img src="img/css3.svg" alt="" class="skill">
+    <img src="img/ruby.svg" alt="" class="skill">
+    <img src="img/ror.svg" alt="" class="skill">
+    <img src="img/postgresql.svg" alt="" class="skill">
+    <img src="img/github_badge.svg" alt="" class="skill">
+    <img src="img/photoshop.svg" alt="" class="skill">
+    <img src="img/illustrator.svg" alt="" class="skill">
+  </div>
+  <p>My current skillset consists of a broad range across design and devlopment. i also have skills in re-touching, film editing and various areas of the production industry. i am constantly learning and advancing in differnet areas of coding and design. </p>
+</div>
+
+<div id="contact" class="contact">
+    <h2>Lets talk!</h2>
+    <hr>
+    <p>Reach out to me on any of the below networks and i'll be happy to chat!</p>
+    <div class="elements">
+      <ul>
+        <li><a href="https://twitter.com/harry_lift?lang=en" target="_blank"><i class="social fa fa-twitter"></i></a></li>
+        <li><a href="http://au.linkedin.com/in/harryduncan25" target="_blank"><i class="social fa fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/harry-duncan" target="_blank"><i class="social fa fa-github"></i></a></li>
+        <li><a href="https://soundcloud.com/harryduncan" target="_blank"><i class="social fa fa-soundcloud"></i></a></li>
+        <li><a href="mailto:harryduncan25@gmail.com"><i class="social fa fa-envelope"></i></a></li>
+        <li><a href="https://profiles.generalassemb.ly/profiles/harry-duncan" target="_blank"><i class="social fa fa-graduation-cap"></i></a></li>
+      </ul>
+  </div>
+</div>
+
+<script>
+(function() {
+  [].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
+    var menuItems = menu.querySelectorAll('.menu__link'),
+      setCurrent = function(ev) {
+        ev.preventDefault();
+
+        var item = ev.target.parentNode; // li
+
+        // return if already current
+        if (classie.has(item, 'menu__item--current')) {
+          return false;
+        }
+        // remove current
+        classie.remove(menu.querySelector('.menu__item--current'), 'menu__item--current');
+        // set current
+        classie.add(item, 'menu__item--current');
+      };
+
+    [].slice.call(menuItems).forEach(function(el) {
+      el.addEventListener('click', setCurrent);
+    });
+  });
+
+  [].slice.call(document.querySelectorAll('.link-copy')).forEach(function(link) {
+    link.setAttribute('data-clipboard-text', location.protocol + '//' + location.host + location.pathname + '#' + link.parentNode.id);
+    new Clipboard(link);
+    link.addEventListener('click', function() {
+      classie.add(link, 'link-copy--animate');
+      setTimeout(function() {
+        classie.remove(link, 'link-copy--animate');
+      }, 300);
+    });
+  });
+})(window);
+</script>
+</div>
+
 </body>
 </html>
+
+

@@ -1,16 +1,3 @@
-$(document).ready(function(){
-
-});
-
-
-// This is for my typeout effect
-$(function(){
-    $(".typeout").typed({
-        strings: ["harry duncan", "Website coming soon!"],
-        typeSpeed: 60
-    });
-});
-
 // Smooth scrolling
 
 $(function() {
@@ -27,3 +14,5 @@ $(function() {
     }
   });
 });
+
+console.log("Something else");
