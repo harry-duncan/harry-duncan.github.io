@@ -1,12 +1,13 @@
 # harry-duncan.github.io
 ----
 ## Features
-Responsiveness
-Cool hovers
-me. haha
-## improvements
-private url
-clean up css
-add parallax
-## hard bits
-nav nearly killed me
+1. Responsiveness
+2. Cool hovers
+3. me. haha
+## Improvements
+1. private url
+2.clean up css
+3. add parallax
+## Hard bits
+nav nearly **killed** me
+responsive layout
