@@ -16,3 +16,9 @@
 
 ### Future
 Will probably want to rebuild the entire site in a few weeks. So I'll keep you updated!
+
+#### Shoutouts
+1. Coffee
+2. V energy drinks
+3. more V
+4. Soundcloud
