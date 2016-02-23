@@ -11,5 +11,5 @@
 3. Add parallax
 
 ## Hard bits
-nav nearly **killed** me
-responsive layout
+1. nav nearly **killed** me
+2. responsive layout
