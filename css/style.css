@@ -12,13 +12,13 @@ font-family: 'Montserrat', Helvetica, sans-serif !important;
 }
 
 ::selection {
-    color: #515151;
-    background: #b39964;
+  color: #515151;
+  background: #b39964;
 }
 
 ::-moz-selection { /* Code for Firefox */
-    color: #515151;
-    background: #b39964;
+  color: #515151;
+  background: #b39964;
 }
 
 .container {
@@ -59,7 +59,6 @@ nav {
   width: 100vw;
   height: 650px;
   text-align: center;
-
 }
 
 .skills {
@@ -88,8 +87,6 @@ nav {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 500;
-  /*border: 1.5px solid white;*/
-  /*padding: 10px 30px 10px 30px;*/
 }
 
 .greeting h2 {
@@ -106,7 +103,6 @@ nav {
   margin: 0;
   letter-spacing: 2px;
   font-weight: 500;
-  /*font-size: 16px;*/
   color: #444;
 }
 
@@ -170,7 +166,6 @@ nav {
   width: calc(30% - 5%);
 }
 
-
 .title {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -181,7 +176,7 @@ nav {
 }
 
 .projects p {
-   font-size: 1em;
+  font-size: 1em;
   color: #666;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -191,23 +186,23 @@ nav {
 /* Gradient transparent - color - transparent */
 
 .about hr {
-    border: 0;
-    height: 2px;
-    width: 50px;
-    position: relative;
-    transform: translateY(-50%);
-    top: 130px;
-    background: #b39964;
+  border: 0;
+  height: 2px;
+  width: 50px;
+  position: relative;
+  transform: translateY(-50%);
+  top: 130px;
+  background: #b39964;
 }
 
 .portfolio hr {
-    border: 0;
-    height: 2px;
-    width: 50px;
-    position: relative;
-    transform: translateY(-50%);
-    top: 140px;
-    background: #b39964;
+  border: 0;
+  height: 2px;
+  width: 50px;
+  position: relative;
+  transform: translateY(-50%);
+  top: 140px;
+  background: #b39964;
 }
 
 .skills-h2 {
@@ -225,15 +220,14 @@ nav {
 
 
 .skills hr {
-    border: 0;
-    height: 2px;
-    width: 50px;
-    position: relative;
-    transform: translateY(-50%);
-    top: 130px;
-    background: #b39964;
+  border: 0;
+  height: 2px;
+  width: 50px;
+  position: relative;
+  transform: translateY(-50%);
+  top: 130px;
+  background: #b39964;
 }
-
 
 .skillset {
   position: absolute;
@@ -261,7 +255,6 @@ nav {
   left: 35%;
 }
 
-
 .contact-h2 {
   text-transform: uppercase;
   position: relative;
@@ -275,13 +268,13 @@ nav {
 }
 
 .contact hr {
-    border: 0;
-    height: 2px;
-    width: 50px;
-    position: relative;
-    transform: translateY(-50%);
-    top: 130px;
-    background: #b39964;
+  border: 0;
+  height: 2px;
+  width: 50px;
+  position: relative;
+  transform: translateY(-50%);
+  top: 130px;
+  background: #b39964;
 }
 
 #contact p{
@@ -294,7 +287,6 @@ nav {
   position: relative;
   top: 250px;
   left: 31.5%;
-
 }
 
 /*// social // */
@@ -309,23 +301,27 @@ nav {
   padding: 0px;
   width: calc(35% - 5%);
 }
+
 .elements ul:after {
   content: "";
   display: table;
   clear: both;
 }
+
 .elements ul li {
   list-style: none;
   display: inline-block;
   margin: 0px 15px 70px 0px;
   backface-visibility: hidden;
 }
+
 .elements ul a {
   color: #B8B8B8;
   padding: 25px;
   border: 1.5px solid #fff;
   border-radius: 0;
 }
+
 .elements a:hover {
   color: #b39964 !important;
   border-color: #b39964 !important;
@@ -366,7 +362,6 @@ footer h4 {
   line-height: 1.5em;
 }
 
-
 /*responsive section*/
 
 /*macbook air 13"*/
@@ -396,7 +391,6 @@ footer h4 {
     left: 29%;
   }
 }
-
 
 /*small desktop*/
 @media screen and (max-width: 1280px) {

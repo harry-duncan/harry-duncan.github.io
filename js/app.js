@@ -15,8 +15,6 @@ $(function() {
   });
 });
 
-console.log("Something else");
-
 // nav
 $(document).ready(function(){
   $('.bars').click(function(){
@@ -24,3 +22,5 @@ $(document).ready(function(){
     $('.container').toggleClass('menu-open');
   });
 });
+
+console.log("If you would like to hire me please email me - harryduncan25@gmail.com")
