@@ -23,4 +23,4 @@ $(document).ready(function(){
   });
 });
 
-console.log("If you would like to hire me please email me - harryduncan25@gmail.com")
+console.log("If you would like to hire me please email me - harryduncan25@gmail.com");
